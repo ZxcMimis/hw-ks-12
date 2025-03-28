@@ -1,0 +1,2 @@
+const e=Date.parse("2025-01-22:00:00:00");new CountdownTimer({selector:"#timer-1",targetDate:new Date("Jul 17, 2019")}),setInterval(()=>{let t=e-Date.now(),o=Math.floor(t/864e5);document.querySelector('[data-value="days"]').textContent=o;let a=Math.floor(t%864e5/36e5);document.querySelector('[data-value="hours"]').textContent=a;let n=Math.floor(t%36e5/6e4);document.querySelector('[data-value="mins"]').textContent=n;let l=Math.floor(t%6e4/1e3);document.querySelector('[data-value="secs"]').textContent=l},1e3);
+//# sourceMappingURL=hw-ks-12.1036c6d1.js.map

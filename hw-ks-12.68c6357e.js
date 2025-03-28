@@ -1,0 +1,2 @@
+const e=Date.parse("2025-08-24:00:00:00");setInterval(()=>{let t=e-Date.now(),o=Math.floor(t/864e5);document.querySelector('[data-value="days"]').textContent=o;let a=Math.floor(t%864e5/36e5);document.querySelector('[data-value="hours"]').textContent=a;let l=Math.floor(t%36e5/6e4);document.querySelector('[data-value="mins"]').textContent=l;let n=Math.floor(t%6e4/1e3);document.querySelector('[data-value="secs"]').textContent=n},1e3);
+//# sourceMappingURL=hw-ks-12.68c6357e.js.map
